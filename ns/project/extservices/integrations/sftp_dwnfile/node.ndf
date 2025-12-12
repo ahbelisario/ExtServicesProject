@@ -146,7 +146,7 @@
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">contentStream</value>
+          <value name="field_name">filebytes</value>
           <value name="field_type">object</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -175,7 +175,7 @@
   <null name="auditfields_input"/>
   <array name="auditfields_output" type="value" depth="2">
     <array type="value" depth="1">
-      <value>/contentStream;3;0</value>
+      <value>/filebytes;3;0</value>
       <value>contentStream</value>
     </array>
   </array>
@@ -213,5 +213,5 @@
   <value name="pipeline_option">1</value>
   <null name="originURI"/>
   <value name="modifiable">true</value>
-  <value name="is_public">false</value>
+  <value name="is_public">true</value>
 </Values>
